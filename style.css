@@ -19,8 +19,16 @@ h1 {
 }
 
 #tweet {
-  background-color: #1A94E0;
+  background-color: #1ae048;
   color: white;
+}
+
+.ws-icon{
+  margin-right: 5px;
+}
+
+.btn{
+  border-radius: 15px;
 }
 
 #author-nav-button {
@@ -94,6 +102,20 @@ h1 {
 
 .close-author-nav-menu {
   text-align: right;
+}
+
+.myinfo{
+  width: 200px;
+  height: 200px;
+}
+
+.mydata{
+  margin-top: 1.5rem;
+  font-size: larger;
+}
+
+.mylink{
+  color: #1ae048;
 }
 
 @media screen and (min-width: 600px) {
