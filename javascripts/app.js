@@ -78,7 +78,7 @@ $(function() {
   });
 
   tweet.click(function(){
-    let uri = "https://twitter.com/intent/tweet?text=" + "\"" + quoteText + "\"" + authorName;
+    let uri = `whatsapp://send?text=  \"  ${quoteText}  \n  ${authorName}`;
     tweet.attr("href", encodeURI(uri));
   });
 
